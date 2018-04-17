@@ -25,6 +25,7 @@ namespace Rabi.UWP
         public MainPage()
         {
             this.InitializeComponent();
+
         }
     }
 }

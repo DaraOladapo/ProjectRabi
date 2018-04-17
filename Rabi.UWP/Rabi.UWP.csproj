@@ -109,6 +109,12 @@
     <None Include="Rabi.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\Emotion.png" />
+    <Content Include="Assets\Icons\Face.png" />
+    <Content Include="Assets\Icons\Knowledge.png" />
+    <Content Include="Assets\Icons\Search.png" />
+    <Content Include="Assets\Icons\Speech.png" />
+    <Content Include="Assets\Icons\Vision.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -133,9 +139,7 @@
       <Version>6.0.8</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Icons\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

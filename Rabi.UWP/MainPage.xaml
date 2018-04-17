@@ -16,12 +16,16 @@
             <TextBlock Text="Rabi" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}" Margin="4" Foreground="White"/>
         </Grid>
         <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <GridView x:Name="TasksGridView">
+            <GridView x:Name="TasksGridView" Header="Tasks">
                 <GridView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel>
-                            <Image Height="48" HorizontalAlignment="Center"/>
-                            <TextBlock Text="{Binding Task}" HorizontalAlignment="Center" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Height="48" HorizontalAlignment="Center" Source="{Binding ImageSource}"/>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Task}" HorizontalAlignment="Center" Style="{StaticResource HeaderTextBlockStyle}"/>
+                                <TextBlock Text="{Binding Category}" HorizontalAlignment="Center" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                                <TextBlock Text="{Binding Description}" HorizontalAlignment="Center" Style="{StaticResource BodyTextBlockStyle}"/>
+                            </StackPanel>
                         </StackPanel>
                     </DataTemplate>
                 </GridView.ItemTemplate>
