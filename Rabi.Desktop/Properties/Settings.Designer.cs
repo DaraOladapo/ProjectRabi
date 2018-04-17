@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectRabi.Properties
+namespace Rabi.Desktop.Properties
 {
 
 

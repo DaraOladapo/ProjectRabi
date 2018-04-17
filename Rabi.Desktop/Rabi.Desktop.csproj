@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D99A0297-8BEA-40EC-B37C-F825F4D9CD52}</ProjectGuid>
+    <ProjectGuid>{AF4E37FC-7046-42F8-8B2C-A557DBCC7AFE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ProjectRabi</RootNamespace>
-    <AssemblyName>ProjectRabi</AssemblyName>
+    <RootNamespace>Rabi.Desktop</RootNamespace>
+    <AssemblyName>Rabi.Desktop</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
