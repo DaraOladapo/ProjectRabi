@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Rabi.UWP.HelperServices;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,10 +23,11 @@ namespace Rabi.UWP
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        
         public MainPage()
         {
             this.InitializeComponent();
-
+            AppTasksGridView.ItemsSource = AppTaskService.GetAppTasks();
         }
     }
 }

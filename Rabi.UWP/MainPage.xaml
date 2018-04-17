@@ -16,7 +16,7 @@
             <TextBlock Text="Rabi" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}" Margin="4" Foreground="White"/>
         </Grid>
         <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <GridView x:Name="TasksGridView" Header="Tasks">
+            <GridView x:Name="AppTasksGridView" Header="Tasks">
                 <GridView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
