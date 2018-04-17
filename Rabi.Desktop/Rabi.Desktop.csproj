@@ -62,12 +62,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HelperServices\AppTaskService.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AppTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -92,6 +94,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Icons\Emotion.png" />
+    <Resource Include="Assets\Icons\Face.png" />
+    <Resource Include="Assets\Icons\Knowledge.png" />
+    <Resource Include="Assets\Icons\RabiLogo.png" />
+    <Resource Include="Assets\Icons\RabiLogoLight.png" />
+    <Resource Include="Assets\Icons\Search.png" />
+    <Resource Include="Assets\Icons\Speech.png" />
+    <Resource Include="Assets\Icons\Vision.png" />
+    <Resource Include="Assets\LargeTile.scale-100.png" />
+    <Resource Include="Assets\LargeTile.scale-125.png" />
+    <Resource Include="Assets\LargeTile.scale-150.png" />
+    <Resource Include="Assets\LargeTile.scale-200.png" />
+    <Resource Include="Assets\LargeTile.scale-400.png" />
+    <Resource Include="Assets\LockScreenLogo.scale-200.png" />
+    <Resource Include="Assets\SmallTile.scale-100.png" />
+    <Resource Include="Assets\SmallTile.scale-125.png" />
+    <Resource Include="Assets\SmallTile.scale-150.png" />
+    <Resource Include="Assets\SmallTile.scale-200.png" />
+    <Resource Include="Assets\SmallTile.scale-400.png" />
+    <Resource Include="Assets\SplashScreen.scale-100.png" />
+    <Resource Include="Assets\SplashScreen.scale-125.png" />
+    <Resource Include="Assets\SplashScreen.scale-150.png" />
+    <Resource Include="Assets\SplashScreen.scale-200.png" />
+    <Resource Include="Assets\SplashScreen.scale-400.png" />
+    <Resource Include="Assets\Square150x150Logo.scale-100.png" />
+    <Resource Include="Assets\Square150x150Logo.scale-125.png" />
+    <Resource Include="Assets\Square150x150Logo.scale-150.png" />
+    <Resource Include="Assets\Square150x150Logo.scale-200.png" />
+    <Resource Include="Assets\Square150x150Logo.scale-400.png" />
+    <Resource Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Resource Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Resource Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Resource Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Resource Include="Assets\Square44x44Logo.scale-100.png" />
+    <Resource Include="Assets\Square44x44Logo.scale-125.png" />
+    <Resource Include="Assets\Square44x44Logo.scale-150.png" />
+    <Resource Include="Assets\Square44x44Logo.scale-200.png" />
+    <Resource Include="Assets\Square44x44Logo.scale-400.png" />
+    <Resource Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Resource Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Resource Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Resource Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Resource Include="Assets\Square44x44Logo.targetsize-32.png" />
+    <Resource Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Resource Include="Assets\StoreLogo.backup.png" />
+    <Resource Include="Assets\StoreLogo.scale-100.png" />
+    <Resource Include="Assets\StoreLogo.scale-125.png" />
+    <Resource Include="Assets\StoreLogo.scale-150.png" />
+    <Resource Include="Assets\StoreLogo.scale-200.png" />
+    <Resource Include="Assets\StoreLogo.scale-400.png" />
+    <Resource Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Resource Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Resource Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Resource Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Resource Include="Assets\Wide310x150Logo.scale-400.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
