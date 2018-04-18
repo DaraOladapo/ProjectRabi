@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabi.UWP", "Rabi.UWP\Rabi.UWP.csproj", "{9273450F-A0B1-42B1-B24E-1744479B8D6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabi.Bot", "Rabi.Bot\Rabi.Bot.csproj", "{E2A3C0B8-CA42-4378-B246-DC1322972377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Debug|Any CPU.Build.0 = Debug|x86
+		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Debug|ARM.ActiveCfg = Debug|ARM
 		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Debug|ARM.Build.0 = Debug|ARM
 		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -37,6 +41,22 @@ Global
 		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Release|x86.ActiveCfg = Release|x86
 		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Release|x86.Build.0 = Release|x86
 		{9273450F-A0B1-42B1-B24E-1744479B8D6A}.Release|x86.Deploy.0 = Release|x86
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|x64.Build.0 = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Debug|x86.Build.0 = Debug|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|ARM.Build.0 = Release|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|x64.ActiveCfg = Release|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|x64.Build.0 = Release|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|x86.ActiveCfg = Release|Any CPU
+		{E2A3C0B8-CA42-4378-B246-DC1322972377}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

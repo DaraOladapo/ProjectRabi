@@ -112,6 +112,7 @@
     <Content Include="Assets\Icons\Emotion.png" />
     <Content Include="Assets\Icons\Face.png" />
     <Content Include="Assets\Icons\Knowledge.png" />
+    <Content Include="Assets\Icons\Language.png" />
     <Content Include="Assets\Icons\RabiLogo.png" />
     <Content Include="Assets\Icons\RabiLogoLight.png" />
     <Content Include="Assets\Icons\Search.png" />
@@ -180,7 +181,13 @@
       <Version>6.0.8</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Knowledge\" />
+    <Folder Include="Views\Language\" />
+    <Folder Include="Views\Search\" />
+    <Folder Include="Views\Speech\" />
+    <Folder Include="Views\Vision\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
